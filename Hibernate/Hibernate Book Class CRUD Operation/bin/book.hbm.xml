@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+<class name="com.demo.bean.Book" table="book">
+        <id name="bookid"> <!--  Primary Key  -->
+        <column name="bookid" length="3"></column>      
+        </id>
+        <property name="title" type="java.lang.String">
+            <column name="title" length="15"/>
+        </property>
+        <property name="price" type="double">
+            <column name="price" length="7"/>
+        </property>  
+       
+    </class>
+</hibernate-mapping>

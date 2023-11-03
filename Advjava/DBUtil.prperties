@@ -1,0 +1,4 @@
+url=jdbc:oracle:thin:@LAPTOP-OP2JIB74:1521:XE
+username=hr
+password=hr
+driver=oracle.jdbc.driver.OracleDriver
